@@ -1,0 +1,51 @@
+header
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+.items
+{
+    color:antiquewhite;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 70%;   
+}
+.items li:hover
+{
+    color:aqua;
+}
+body
+{
+    background-color: antiquewhite;
+}
+#home
+{
+    display: flex;
+    height: 120%;
+    padding: 50px;
+    
+}
+.name
+{
+    text-align: center;
+}
+.heading
+{
+    font-size: 40px;
+}
+.subheading
+{
+    font-size: 20px;
+}
+span:hover
+{
+    color:aqua;
+    transition: 0.7s;
+    
+}
